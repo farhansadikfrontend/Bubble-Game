@@ -51,11 +51,16 @@ main {
   width: 100%;
   background: #ffffff;
   display: flex;
+  align-items: center;
   gap: 5px;
   flex-wrap: wrap;
   padding: 10px 5px;
   justify-content: center;
   overflow: hidden;
+}
+
+#pBubble h1 {
+  color: rgb(129, 11, 11);
 }
 
 .bubble {
