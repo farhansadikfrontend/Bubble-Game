@@ -9,6 +9,7 @@ function createBubble() {
     bubbles += `<div class="bubble">${num}</div>`;
   }
   pBubble.innerHTML = bubbles;
+  ballAnimate()
 }
 
 function timerCode() {
